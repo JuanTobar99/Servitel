@@ -1,0 +1,102 @@
+body{
+    background-color: #ddd;
+    font-family: sans-serif;
+}
+#Cabecera{
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    color: #fff;
+}
+
+#Info{
+    margin: 75px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#Info a{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#Contenido{
+    background-color: #fff; 
+    margin-top: 150px; 
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: content-box;
+    width: 90%;
+    border-radius: 4px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+#limit{
+    border-bottom:1px solid #bbb;
+}
+#lines tr{
+    border: 0;
+}
+
+#param{
+    margin: 25px;
+    padding-left: 75px;
+    border: 1px solid #ddd;
+    background: url("https://image.flaticon.com/icons/png/512/25/25313.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+
+#forms{
+    margin: 45px 0px;
+}
+#forms label{
+    font-size: 18px;
+    color: #000;
+}
+#forms input[type=text]{
+    margin: 20px 0px;
+    border: 1px solid #ddd;
+    border-bottom: 1.8px solid #ddd;
+    width: 100%;
+}
+#forms input[type=button]{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+}
+#forms input[type=button]:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#forms input[type=submit]{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+}
+#forms input[type=submit]:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#forms hr{
+    margin: 25px 0px;
+    border: 0.05px solid #d1d1d1;
+}
+#forms #cancel{
+    color: #fff;
+    border: 0;
+    font-weight: normal;
+}
